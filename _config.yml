@@ -1,0 +1,13 @@
+# Site settings
+title: SDNFV @ UCR and GW
+# email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Research on flexible, high performance software-based networks
+  from UC Riverside and George Washington University.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://sdnfv.github.io" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  sdnfv
+
+# Build settings
+markdown: kramdown
