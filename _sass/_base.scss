@@ -97,7 +97,7 @@ a {
     }
 
     &:hover {
-        color:  lighten($brand-color, 15%);
+        color:  $brand-color-light;
         text-decoration: underline;
     }
 }

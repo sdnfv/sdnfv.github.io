@@ -3,7 +3,7 @@
 ---
 @charset "utf-8";
 
-// theme: https://color.adobe.com/HS-PPI-color-theme-5967828/?showPublished=true
+// theme: https://color.adobe.com/Garden-swimming-pool-color-theme-3171/?showPublished=true
 
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
@@ -15,13 +15,14 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #FFF;
-$brand-color:      #F28729;
+$brand-color:      #96CA2D;
+$brand-color-light:#B5E655;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$accent-color:     #0378A6;
+$accent-color:     #4BB5C1;
 
 $on-palm:          600px;
 $on-laptop:        800px;
