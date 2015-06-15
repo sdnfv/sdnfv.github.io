@@ -1,7 +1,7 @@
 ---
 layout: page
 title: People
-permalink: /about/
+permalink: /people/
 ---
 
 SDNFV is a joint effort between the University of California Riverside and George Washington University.
