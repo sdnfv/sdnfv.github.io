@@ -8,6 +8,9 @@ The basis for much of our research is **openNetVM**, a high performance NFV plat
 Our work is supported in part by NSF grants CNS-1422362 and CNS-1522546.
 
 ## Software Releases
+
+<img src="res/onvm-logo.png" style="float:left; padding-right:15px;">
+
 We expect to have a release of **openNetVM** ready for beta testing in *Summer 2015*.
 
 ## Publications
