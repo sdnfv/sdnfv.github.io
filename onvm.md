@@ -4,7 +4,7 @@ title: openNetVM
 permalink: /onvm/
 ---
 
-<img src="res/onvm-logo.png" style="float:right; padding-right:15px;">
+<img src="/res/onvm-logo.png" style="float:right; padding-right:15px;">
 
 openNetVM is a high performance NFV platform based on [Intel DPDK](http://dpdk.org) and [Docker](http://www.docker.com) containers.  **openNetVM** is SDN-enabled, allowing the network controller to provide rules that dictate what network functions need to process each packet flow.
 
