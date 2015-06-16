@@ -3,13 +3,13 @@ layout: default
 ---
 The **Software Defined Network Function Virtualization** (SDNFV) project is a research collaboration spanning University of California Riverside and George Washington University, led by [K.K. Ramakrishnan](http://www.cs.ucr.edu/~kk/) and [Tim Wood](http://faculty.cs.gwu.edu/~timwood/wiki/doku.php). We seek to build highly dynamic software-based networks that provide far greater flexibility than hardware-based approaches, yet still obtain high performance and low cost.  
 
-The basis for much of our research is **openNetVM**, a [DPDK](http://dpdk.org) based high performance NFV platform that allows network functions to be deployed in [Docker](http://www.docker.com) containers.  **openNetVM** is SDN-enabled, allowing the network controller to provide rules that dictate what network functions need to process each packet flow.
+The basis for much of our research is **openNetVM**, a [DPDK](http://dpdk.org) based high performance NFV platform that allows network functions such as network monitors, switches, etc. to be deployed in [Docker](http://www.docker.com) containers.  **openNetVM** is SDN-enabled, allowing the network controller to provide rules that dictate what network functions need to process each packet flow.
 
 Our work is supported in part by NSF grants CNS-1422362 and CNS-1522546.
 
 ## Software Releases
 
-<img src="res/onvm-logo.png" style="float:left; padding-right:15px;">
+[<img src="res/onvm-logo.png" style="float:left; padding-right:15px;">](/onvm/)
 
 We expect to have a release of **openNetVM** ready for beta testing in *Summer 2015*.
 
