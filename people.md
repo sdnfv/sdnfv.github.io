@@ -12,6 +12,7 @@ SDNFV is a joint effort between the University of California Riverside and Georg
 
 ###Students
   * Guyue Liu, Ph.D. student at GW
+  * Vineet Kapoor, M.S. student at UCR
   * Ali Mohammadkhan, Ph.D. student at UCR
   * Neel Shah, undergraduate student at GW
   * Wei Zhang, Ph.D. student at GW
