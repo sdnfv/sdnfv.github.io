@@ -11,7 +11,7 @@ Our work is supported in part by NSF grants CNS-1422362 and CNS-1522546.
 
 [<img src="res/onvm-logo.png" style="float:left; padding-right:15px;">](/onvm/)
 
-We expect to have a release of **openNetVM** ready for beta testing in *Summer 2015*.
+We expect to have a release of **openNetVM** ready for beta testing in *Summer 2015*. [Read more about openNetVM here](/onvm/).
 
 ## Publications
   * **[Towards a Software-Based Network: Integrating Software Defined Networking and Network Function Virtualization](http://faculty.cs.gwu.edu/~timwood/papers/15-Network-sdnfv.pdf).** *Timothy Wood, K. K. Ramakrishnan, Jinho Hwang, Grace Liu, and Wei Zhang.* IEEE Networks Magazine, June 2015.
