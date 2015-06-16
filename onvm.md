@@ -24,6 +24,8 @@ openNetVM is an open source version of the NetVM platform described in our [NSDI
 
 **No Interrupts:** We use DPDK's poll mode driver in place of traditional interrupt-driven networking, allowing the system to process packets at line rates of 10 Gbps and beyond.
 
+**Scalable:** NFs can be easily replicated for scalability, and the NF Manager will automatically load balance packets across threads to maximize performance.
+
 ## Performance
 
 Our original NetVM platform was able to achieve performance significantly higher than the state of the art when processing packets through a chain of virtual machines. We expect similar or better performance on our updated openNetVM platform.
