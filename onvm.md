@@ -26,7 +26,7 @@ openNetVM is an open source version of the NetVM platform described in our [NSDI
 
 ## Performance
 
-Our original NetVM platform was able to achieve performance significantly higher than the state of the art when processing packets through a chain of virtual machines.
+Our original NetVM platform was able to achieve performance significantly higher than the state of the art when processing packets through a chain of virtual machines. We expect similar or better performance on our updated openNetVM platform.
 
 <img src="/res/netvm-perf.png" style="float:left; padding-right:10px">
 
