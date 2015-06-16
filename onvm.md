@@ -23,3 +23,15 @@ openNetVM is an open source version of the NetVM platform described in our [NSDI
 **NUMA-Aare:** openNetVM maximizes performance by ensuring that packets in memory DIMMs local to a particular socket are only processed by threads running on that socket.
 
 **No Interrupts:** We use DPDK's poll mode driver in place of traditional interrupt-driven networking, allowing the system to process packets at line rates of 10 Gbps and beyond.
+
+## Performance
+
+Our original NetVM platform was able to achieve performance significantly higher than the state of the art when processing packets through a chain of virtual machines.
+
+<img src="/res/netvm-perf.png" style="float:left; padding-right:10px">
+
+We have evaluated the performance of NetVM compared to SR-IOV and raw DPDK on a machine with four 10 Gbps NIC ports. DPDK provides the highest performance for software-based switching, but it does not directly support running NFs in virtual machines or containers, limiting its use for NFV deployments.  SR-IOV allows a physical NIC to be virtualized and given to a virtual machine for direct access; we measure the performance of running DPDK inside a VM with SR-IOV. The forwarding rate achieved by NetVM for 64 byte packets significantly surpasses that of SR-IOV, nearly reaching the same level of performance as DPDK, even though NetVM must transfer packets from the host to the virtual machine that processes the packets.
+
+The performance gap between SR-IOV and NetVM becomes even larger when there are multiple NFs that must process a packet.  SR-IOV drops to nearly one third of the line rate when sending packets through a chain of two VMs, while NetVM can maintain the full line rate as long as there are sufficient CPU cores to dedicate to each VM.
+
+For additional performance results, please see our [TNSM Journal article](http://faculty.cs.gwu.edu/~timwood/papers/15-TNSM-netvm.pdf).
