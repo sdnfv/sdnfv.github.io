@@ -9,7 +9,7 @@ Our work is supported in part by NSF grants CNS-1422362 and CNS-1522546.
 
 ## Software Releases
 
-[<img src="res/onvm-logo.png" style="float:left; padding-right:15px;">](/onvm/)
+[<img src="res/onvm-logo.png" style="float:left; padding-right:15px; margin-top:-10px">](/onvm/)
 
 We expect to have a release of **openNetVM** ready for beta testing in *Summer 2015*. [Read more about openNetVM here](/onvm/).
 
