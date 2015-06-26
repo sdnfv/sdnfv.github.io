@@ -33,7 +33,7 @@ openNetVM is an open source version of the NetVM platform described in our [NSDI
 
 Our original NetVM platform was able to achieve performance significantly higher than the state of the art when processing packets through a chain of virtual machines. We expect similar or better performance on our updated openNetVM platform.
 
-<img src="/res/netvm-perf.png" style="float:left; padding-right:10px">
+<img src="/res/netvm-perf.png" width="300px" height="221px" style="float:left; padding-right:10px">
 
 We have evaluated the performance of NetVM compared to SR-IOV and raw DPDK on a machine with four 10 Gbps NIC ports. DPDK provides the highest performance for software-based switching, but it does not directly support running NFs in virtual machines or containers, limiting its use for NFV deployments.  SR-IOV allows a physical NIC to be virtualized and given to a virtual machine for direct access; we measure the performance of running DPDK inside a VM with SR-IOV. The forwarding rate achieved by NetVM for 64 byte packets significantly surpasses that of SR-IOV, nearly reaching the same level of performance as DPDK, even though NetVM must transfer packets from the host to the virtual machine that processes the packets.
 
