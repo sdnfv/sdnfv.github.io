@@ -12,6 +12,9 @@ openNetVM is an open source version of the NetVM platform described in our [NSDI
 
 ## Features
 
+<img src="/res/netvm-arch.png" style="float:right; padding-left:15px; padding-bottom:10px">
+
+
 **Container-based NFs:** Writing and managing network functions for openNetVM is easy since they run as standard user space processes inside Docker containers.
 
 **NF Manager:** This component keeps track of what network functions are currently running in containers and distributes packets to them as they arrive.
