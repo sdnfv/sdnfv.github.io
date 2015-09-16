@@ -23,7 +23,7 @@ openNetVM is an open source version of the NetVM platform described in our [NSDI
 
 **Zero-Copy IO:** Packets are DMA'd directly into a shared memory region that allows the NF Manager to grant NFs direct access to packets with no additional copies.
 
-**NUMA-Aare:** openNetVM maximizes performance by ensuring that packets in memory DIMMs local to a particular socket are only processed by threads running on that socket.
+**NUMA-Aware:** openNetVM maximizes performance by ensuring that packets in memory DIMMs local to a particular CPU socket are only processed by threads running on that socket.
 
 **No Interrupts:** We use DPDK's poll mode driver in place of traditional interrupt-driven networking, allowing the system to process packets at line rates of 10 Gbps and beyond.
 
