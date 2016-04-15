@@ -14,6 +14,8 @@ openNetVM is an open source version of the NetVM platform described in our [NSDI
 ## Current Status
 We have released a preliminary version of OpenNetVM for testing. **The source code and documentation are [available on github](https://github.com/sdnfv/openNetVM).**
 
+We will be releasing [NSF CloudLab](http://cloudlab.us) template images soon.  Please [contact us](mailto:timwood@gwu.edu) if you are interested in testing these.
+
 ## Features
 
 <img src="/res/netvm-arch.png" style="float:right; padding-left:15px; padding-bottom:10px">
