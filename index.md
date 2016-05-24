@@ -14,6 +14,7 @@ Our work is supported in part by NSF grants CNS-1422362 and CNS-1522546.
 A preview release of **openNetVM** is now available for testing. [Read more about openNetVM here](/onvm/).
 
 ## Publications
+  * **[OpenNetVM: A Platform for High Performance Network Service Chains](http://faculty.cs.gwu.edu/~timwood/papers/16-HotMiddlebox-onvm.pdf)**. *Wei Zhang, Guyue Liu, Wenhui Zhang, Neel Shah, Phil Lopreiato, Gregoire Todeschi$, K.K. Ramakrishnan, and Timothy Wood.* ACM SIGCOMM Workshop on Hot Topics in Middleboxes and Network Function Virtualization, August 2016.
   * **[Towards a Software-Based Network: Integrating Software Defined Networking and Network Function Virtualization](http://faculty.cs.gwu.edu/~timwood/papers/15-Network-sdnfv.pdf)**. *Timothy Wood, K. K. Ramakrishnan, Jinho Hwang, Grace Liu, and Wei Zhang.* IEEE Networks Magazine, June 2015.
   * **[Virtual Function Placement and Traffic Steering in Flexible and Dynamic Software Defined Networks](http://faculty.cs.gwu.edu/~timwood/papers/15-LANMAN-placement.pdf)**. *Ali Mohammadkhan, Sheida Ghapani, Guyue Liu, Wei Zhang, K. K. Ramakrishnan and Timothy Wood.* IEEE International Workshop on Local and Metropolitan Area Networks (LANMAN), April 2015.
   * **[Cloud-Scale Application Performance Monitoring with SDN and NFV](http://faculty.cs.gwu.edu/~timwood/papers/15-IWCA-netalytics.pdf)**. *Guyue Liu, Timothy Wood.* IEEE International Workshop on Cloud Analytics (IWCA15), March 2015.
