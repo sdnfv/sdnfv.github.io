@@ -12,6 +12,8 @@ openNetVM is an open source version of the NetVM platform described in our [NSDI
 
 
 ## Current Status
+Our [HotMiddlebox workshop paper](http://faculty.cs.gwu.edu/~timwood/papers/16-HotMiddlebox-onvm.pdf) is a good way to learn about openNetVM's overall architecture.
+
 We have released a preliminary version of OpenNetVM for testing. **The source code and documentation are [available on github](https://github.com/sdnfv/openNetVM).**
 
 We will be releasing [NSF CloudLab](http://cloudlab.us) template images soon.  Please [contact us](mailto:timwood@gwu.edu) if you are interested in testing these.
