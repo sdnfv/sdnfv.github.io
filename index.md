@@ -5,7 +5,7 @@ The **Software Defined Network Function Virtualization** (SDNFV) project is a re
 
 The basis for much of our research is **openNetVM**, a [DPDK](http://dpdk.org) based high performance NFV platform that allows network functions such as security monitors, switches, WAN optimizers, etc. to be deployed in [Docker](http://www.docker.com) containers.  openNetVM is SDN-enabled, allowing the network controller to provide rules that dictate what network functions need to process each packet flow.
 
-Our work is supported in part by NSF grants CNS-1422362 and CNS-1522546.
+Our work is supported in part by NSF grants CNS-1422362 and CNS-1522546, and AFOSR grant FA9550-12-1-0334.
 
 ## Software Releases
 
@@ -15,7 +15,8 @@ A preview release of **openNetVM** is now available for testing. [Read more abou
 
 ## Publications
   * **[Flurries: Countless Fine-Grained NFs for Flexible Per-Flow Customization](http://faculty.cs.gwu.edu/~timwood/papers/16-CoNext-flurries.pdf)**. *Wei Zhang, Jinho Hwang, Shriram Rajagopalan, K. K. Ramakrishnan, Timothy Wood.* ACM Co-NEXT, December 2016.
-  * **[SDNFV: Flexible and Dynamic Software Defined Control of an Application- and Flow-Aware Data Plane](http://faculty.cs.gwu.edu/~timwood/papers/16-Middleware-SDNFV.pdf)**. *Wei Zhang, GUyue Liu, Timothy Wood, K. K. Ramakrishnan, Jinho Hwang.* ACM/IFIP/USENIX Middleware, December 2016.
+  * **[SDNFV: Flexible and Dynamic Software Defined Control of an Application- and Flow-Aware Data Plane](http://faculty.cs.gwu.edu/~timwood/papers/16-Middleware-SDNFV.pdf)**. *Wei Zhang, Guyue Liu, Timothy Wood, K. K. Ramakrishnan, Jinho Hwang.* ACM/IFIP/USENIX Middleware, December 2016.
+  * **[Netalytics: Cloud-Scale Application Performance Monitoring with SDN and NFV](http://dl.acm.org/authorize?N24385)**. *Guyue Liu, Michael Trotter, Yuxin Ren, Timothy Wood.* ACM/IFIP/USENIX Middleware, December 2016. 
   * **[OpenNetVM: A Platform for High Performance Network Service Chains](http://faculty.cs.gwu.edu/~timwood/papers/16-HotMiddlebox-onvm.pdf)**. *Wei Zhang, Guyue Liu, Wenhui Zhang, Neel Shah, Phil Lopreiato, Gregoire Todeschi, K.K. Ramakrishnan, and Timothy Wood.* ACM SIGCOMM Workshop on Hot Topics in Middleboxes and Network Function Virtualization, August 2016.
   * **[Towards a Software-Based Network: Integrating Software Defined Networking and Network Function Virtualization](http://faculty.cs.gwu.edu/~timwood/papers/15-Network-sdnfv.pdf)**. *Timothy Wood, K. K. Ramakrishnan, Jinho Hwang, Grace Liu, and Wei Zhang.* IEEE Networks Magazine, June 2015.
   * **[Virtual Function Placement and Traffic Steering in Flexible and Dynamic Software Defined Networks](http://faculty.cs.gwu.edu/~timwood/papers/15-LANMAN-placement.pdf)**. *Ali Mohammadkhan, Sheida Ghapani, Guyue Liu, Wei Zhang, K. K. Ramakrishnan and Timothy Wood.* IEEE International Workshop on Local and Metropolitan Area Networks (LANMAN), April 2015.
