@@ -11,7 +11,7 @@ Our work is supported in part by NSF grants CNS-1422362 and CNS-1522546, and AFO
 
 [<img src="res/onvm-logo.png" style="float:left; padding-right:15px; margin-top:-10px">](/onvm/)
 
-A preview release of **openNetVM** is now available for testing. [Read more about openNetVM here](/onvm/).
+Our NFV platform **openNetVM** is now available for testing. [Read more about openNetVM here](/onvm/).
 
 ## Publications
   * **[Flurries: Countless Fine-Grained NFs for Flexible Per-Flow Customization](http://faculty.cs.gwu.edu/~timwood/papers/16-CoNext-flurries.pdf)**. *Wei Zhang, Jinho Hwang, Shriram Rajagopalan, K. K. Ramakrishnan, Timothy Wood.* ACM Co-NEXT, December 2016.
