@@ -20,7 +20,7 @@ SDNFV is a joint effort between the University of California Riverside and Georg
   * Sameer Kulkarni, Ph.D. student at University of Göttingen
   * Ali Mohammadkhan, Ph.D. student at UCR
   * Chris Quion, undergraduate student at GW
-  * Neel Shah, undergraduate student at GW
+  * [Neel Shah](http://www.shah7.com/), VMware, GW class of 2017
   * Warren Smith, undergraduate student at GW
   * Mykola Yurchenko, undergraduate student at GW
   * Wei Zhang, Ph.D. student at GW
