@@ -5,7 +5,7 @@ The **Software Defined Network Function Virtualization** (SDNFV) project is a re
 
 The basis for much of our research is **openNetVM**, a [DPDK](http://dpdk.org) based high performance NFV platform that allows network functions such as security monitors, switches, WAN optimizers, etc. to be deployed in [Docker](http://www.docker.com) containers.  openNetVM is SDN-enabled, allowing the network controller to provide rules that dictate what network functions need to process each packet flow.
 
-Our work is supported in part by NSF grants CNS-1422362 and CNS-1522546, and AFOSR grant FA9550-12-1-0334.
+Our work is supported in part by NSF grants CNS-1422362 and CNS-1522546, and US Army Research grant W911NF-15-1-0508.
 
 ## Software Releases
 
