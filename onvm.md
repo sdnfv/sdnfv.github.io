@@ -16,10 +16,9 @@ openNetVM is an open source version of the NetVM platform described in our [NSDI
 
 The fastest way to get started with OpenNetVM is using NSF CloudLab. You can find a premade [profile here](https://www.cloudlab.us/p/GWCloudLab/onvm-18.03). 
 
+<img src="/res/netvm-arch.png" width="700px" style="padding-bottom:10px; margin-left: auto; margin-right: auto; display: block;">
+
 ## Features
-
-<img src="/res/netvm-arch.png" widht="700px" style="float:right; padding-left:15px; padding-bottom:10px">
-
 
 **Container-based NFs:** Writing and managing network functions for openNetVM is easy since they run as standard user space processes inside Docker containers.
 
@@ -39,7 +38,7 @@ The fastest way to get started with OpenNetVM is using NSF CloudLab. You can fin
 
 The OpenNetVM Speed Tester NF can be used to measure the throughput of the system by generating either fake packets or replaying PCAP files to simulate real traffic. To stress test packet movement through ONVM, a service chain of Speed Tester NFs can be run on a single machine, avoiding NIC overheads. Because there is no data copying and each NF handles its own sending and receiving of packets, we get high throughput even for long NF chains. Our measurements at left show that a chain of length two using our NF Direct communication mechanism has a maximum throughput of 32 million packets per second, while extending the chain to seven NFs only incurs a 10% throughput drop. Using indirect NF communication via the management layer sees decreasing performance as the manager's TX thread becomes a bottleneck.
 
-<img src="/res/onvm-web-traffic.png" width="288px" height="300px" style="float:right; padding-left:10px">
+<img src="/res/onvm-web-traffic.png"  height="2700px" style="float:right; padding-left:10px">
 
 We have evaluated the performance of NetVM compared to SR-IOV and raw DPDK on a machine with eight 10 Gbps NIC ports. If web traffic is directed to a single NF, we observe a maximum throughput of 48Gbps, at which point the NF itself (running a simple forwarding example) becomes the bottleneck. Starting a second replica of the NF allows OpenNetVM to automatically load balance traffic across the two NFs, while preserving flow affinity. This improves performance up to 68 Gbps, which we believe is the hardware limit on our server.  Even if the traffic is sent through a chain of 5 NFs, we can still process 40 Gbps.
 
