@@ -14,7 +14,7 @@ openNetVM is an open source version of the NetVM platform described in our [NSDI
 ## Current Status
 **OpenNetVM's source code and documentation are [available on github](https://github.com/sdnfv/openNetVM).**
 
-The fastest way to get started with OpenNetVM is using NSF CloudLab. You can find a premade [profile here](https://www.cloudlab.us/p/GWCloudLab/onvm-18.03). 
+**The fastest way to get started with OpenNetVM** is using NSF CloudLab. You can find a premade [profile here](https://www.cloudlab.us/p/GWCloudLab/onvm-18.03). 
 
 <img src="/res/netvm-arch.png" width="700px" style="padding-bottom:10px; margin-left: auto; margin-right: auto; display: block;">
 
