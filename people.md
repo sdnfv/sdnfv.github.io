@@ -18,8 +18,9 @@ SDNFV is a joint effort between the University of California Riverside and Georg
   * Guyue Liu, Ph.D. student at GW
   * Phil Lopreiato, undergraduate student at GW, now at Facebook
   * Vineet Kapoor, M.S. student at UCR
-  * Sameer Kulkarni, Ph.D. student at University of Göttingen
+  * Sameer Kulkarni, Ph.D. student at University of Göttingen, now Post Doc at UCR
   * Ali Mohammadkhan, Ph.D. student at UCR
+  * Sourav Panda, Ph.D. student at UCR
   * Chris Quion, undergraduate student at GW
   * [Neel Shah](http://www.shah7.com/), undergraduate student at GW, now at VMware
   * Warren Smith, undergraduate student at GW

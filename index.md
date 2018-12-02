@@ -13,7 +13,10 @@ Our work is supported in part by NSF grants CNS-1422362 and CNS-1522546, and US 
 
 Our NFV platform **openNetVM** is now available for testing. [Read more about openNetVM here](/onvm/).
 
+
+
 ## Publications
+  * **[REINFORCE: Achieving Efficient Failure Resiliency for Network Function Virtualization based Services](http://faculty.cs.gwu.edu/timwood/papers/18-CoNext-reinforce.pdf)**. *Sameer G. Kulkarni, Guyue Liu, K. K. Ramakrishnan, Mayutan Arumaithurai, Timothy Wood, and Xiaoming Fu*. ACM CoNEXT, December 2018.
   * **[Microboxes: High Performance NFV with Customizable, Asynchronous TCP Stacks and Dynamic Subscriptions](http://faculty.cs.gwu.edu/timwood/papers/18-SIGCOMM-uboxes.pdf)**. *Guyue Liu, Yuxin Ren, Mykola Yurchenko, K.K. Ramakrishnan, and Timothy Wood.* ACM SIGCOMM, August 2018. 
   * **[NFVnice: Dynamic Backpressure and Scheduling for NFV Service Chains](http://faculty.cs.gwu.edu/timwood/papers/17-SIGCOMM-NFVNice.pdf)**. *Sameer G Kulkarni, Wei Zhang, Jinho Hwang, Shriram Rajagopalan, K.K. Ramakrishnan, Timothy Wood, Mayutan Arumaithurai, and Xiaoming Fu.* ACM SIGCOMM, August 2017. 
   * **[Design Challenges for High Performance, Scalable NFV Interconnects](http://faculty.cs.gwu.edu/timwood/papers/17-KBNets-interconnects.pdf)**. *Guyue Liu, K. K. Ramakrishnan, Mike Schlansker, Jean Tourrilhes, and Timothy Wood.* ACM Workshop on Kernel Bypass Networks, August 2017.
