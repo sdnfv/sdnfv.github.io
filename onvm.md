@@ -14,9 +14,16 @@ openNetVM is an open source version of the NetVM platform described in our [NSDI
 ## Current Status
 **OpenNetVM's source code and documentation are [available on github](https://github.com/sdnfv/openNetVM).**
 
-**The fastest way to get started with OpenNetVM** is using NSF CloudLab. You can find a premade [profile here](https://www.cloudlab.us/p/GWCloudLab/onvm-18.03). 
+**Start participating today in OpenNetVM** with our updated CloudLab [profile](https://www.cloudlab.us/p/GWCloudLab/onvm-18.05). 
 
 <img src="/res/netvm-arch.png" width="700px" style="padding-bottom:10px; margin-left: auto; margin-right: auto; display: block;">
+
+## ONVM Release Notes and Highlights
+**Release v18.11:** Increased processing capabilities including multi-threading and increased network statistics from the OpenNetVM manager 
+
+**Release v18.05:** Updated Docker container and mTCP support for NFs making it easier to run and test for everyone involved
+
+**Release v18.03:** Router Network Function has been created to deliver traffic from IP address to NF ID and Data Plane Development Kit (DPDK) has been tested in version 17.08
 
 ## Features
 
