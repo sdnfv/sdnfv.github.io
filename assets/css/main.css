@@ -234,14 +234,14 @@
 
 /* Grid */
 
-	.row {
+	.row{
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
 
-	.row > * {
+	.row > *{
 		float: left;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
@@ -3168,7 +3168,6 @@
 		@media screen and (max-width: 980px) {
 
 			#footer {
-				padding: 4em 0;
 			}
 
 		}
@@ -3176,7 +3175,6 @@
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				padding: 3em 0;
 			}
 
 		}

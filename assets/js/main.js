@@ -63,14 +63,14 @@
 
 	});
 
-	if($(window).width() < 900){
+	if($(window).width() < 980){
 		$(".boxAdd").addClass("box");
 	} else{
 		$(".boxAdd").removeClass("box");
 	}
 
 	$(window).resize(function(){
-		if ($(window).width() < 900) {
+		if ($(window).width() < 980) {
 			$(".boxAdd").addClass("box");
 		} else {
 			$(".boxAdd").removeClass("box");
