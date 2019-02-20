@@ -1,20 +1,56 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Projection by TEMPLATED
+	templated.co @templated
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
 <html>
+<head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{base}}/assets/css/main.css"/>
+    <link rel="shortcut icon" type="image/png" href="{{base}}/images/computer.png"/>
+</head>
 
-  {% include head.html %}
+<body> 
+    <!-- Header -->
+    <header id="header">
+        <div class="inner">
+            <a href="/" class="logo"><strong>SDNFV</strong> @ UCR and GW</a>
+            <nav id="nav">
+                {% for page in site.pages %}
+                    {% if page.exclude != true and page.title %}
+                        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                    {% endif %}
+                {% endfor %}
+            </nav>
+            <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+        </div>
+    </header>
 
-  <body>
+    {{ content }}
 
-    {% include header.html %}
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <div class="row">
+                <div class="4u 4u(medium)">
+                    <span class="icon fa-github"> UCR and GW: <a style="color:white" target="_blank" href="https://github.com/sdnfv">SDNFV</a></span>
+                </div>
+                <div class="8u 8u(medium)">
+                    <p>Research on flexible, high performance software-based networks from UCR and GWU.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    <!-- Scripts -->
+    <script src="{{ "assets/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "assets/js/skel.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "assets/js/util.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "assets/js/main.js" | prepend: site.baseurl }}"></script>
 
-    {% include footer.html %}
-
-  </body>
+</body>
 
 </html>

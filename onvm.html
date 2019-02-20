@@ -1,0 +1,108 @@
+---
+layout: page
+title: openNetVM
+permalink: /onvm/
+---
+
+<section class="wrapper">
+    <div class="inner">
+        <header class="align-center">
+            <h2>openNetVM</h2>
+            <p>openNetVM is a high performance NFV platform based on <a href="http://dpdk.org">DPDK</a> and <a
+                    href="http://www.docker.com">Docker</a> containers. openNetVM can be SDN-enabled, allowing the network
+                controller to provide rules that dictate what network functions need to process each packet flow.</p>
+            <p><img src="{{base}}/images/netvm-arch.png" width="65%;"></p>
+        </header>
+        <hr class="major" />
+        <div class="row">
+            <div class="6u 6u(medium)">
+                <h3>Contributing</h3>
+                <p>openNetVM is an open source version of the NetVM platform described in our <a
+                        href="http://faculty.cs.gwu.edu/~timwood/papers/14-NSDI-netvm.pdf">NSDI 2014 paper</a>, released under the
+                    <a href="https://github.com/sdnfv/openNetVM/blob/master/LICENSE">BSD license</a>. Our <a
+                        href="http://faculty.cs.gwu.edu/~timwood/papers/16-HotMiddlebox-onvm.pdf">HotMiddlebox workshop paper</a> is
+                    a good way to learn about openNetVM’s overall architecture.</p>
+            </div>
+            <div class="6u 6u(medium)">
+                <h3>Current Status</h3>
+                <p><strong>Source code and documentation</strong> are available on openNetVM's
+                            <a href="https://github.com/sdnfv/openNetVM">Github repository</a>.</p>
+                <p><strong>Start</strong> today in OpenNetVM with our updated CloudLab <a 
+                    href="https://www.cloudlab.us/p/GWCloudLab/onvm-18.05">profile</a>.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="blackBack" class="wrapper">
+    <div class="inner">
+        <header class="align-center">
+            <h3>Features</h3>
+        </header>
+        <div class="row">
+            <section class="4u 12u$(medium) boxAdd">
+                <p><strong>Container-based NFs:</strong> Writing and managing network functions for openNetVM is easy since they run
+                    as standard user space processes inside Docker containers.</p>
+            </section>
+
+            <section class="4u 12u$(medium) boxAdd">
+                <p><strong>NF Manager:</strong> This component keeps track of what network functions are currently running in
+                    containers and distributes packets to them as they arrive, as well as providing network statistics.</p>
+            </section>
+
+            <section class="4u$ 12u$(medium) boxAdd">
+                <p><strong>SDN-enabled:</strong> The NF Manager coordinates with SDN controllers using OpenFlow, allowing the
+                    controller to specify service chains composed of multiple NFs that must process a flow.</p>
+            </section>
+        </div>
+
+        <div class="row">
+            <section class="4u 12u$(medium) boxAdd">
+                <p><strong>Zero-Copy IO:</strong> Packets are DMA’d directly into a shared memory region that allows the NF Manager
+                    to grant NFs direct access to packets with no additional copies.</p>
+            </section>
+
+            <section class="4u 12u$(medium) boxAdd">
+                <p><strong>No Interrupts:</strong> We use DPDK’s poll mode driver in place of traditional interrupt-driven
+                    networking, allowing the system to process packets at line rates of 10 Gbps and beyond.</p>
+            </section>
+
+            <section class="4u$ 12u$(medium) boxAdd">
+                <p><strong>Scalable:</strong> Up to 31 NFs can be easily replicated simultaneously for scalability, and the NF
+                    Manager will automatically load balance packets across threads to maximize performance.</p>
+            </section>
+        </div>
+    </div>
+</section>
+
+<section class="wrapper align-center">
+    <div class="inner" style="width:75%;">
+        <header class="align-center">
+            <h3>Performance</h3>
+        </header>
+        <div class="row">
+            <section class="12u 12u$(medium) align-center">
+                <img src="{{base}}/images/onvm-chain-perf.png" width="300px" height="196px">
+                <p>The OpenNetVM Speed Tester NF can be used to measure the throughput of the system by generating either fake
+                    packets or replaying PCAP files to simulate real traffic. To stress test packet movement through ONVM, a service
+                    chain of Speed Tester NFs can be run on a single machine, avoiding NIC overheads. Because there is no data
+                    copying and each NF handles its own sending and receiving of packets, we get high throughput even for long NF
+                    chains. Our measurements at left show that a chain of length two using our NF Direct communication mechanism has
+                    a maximum throughput of 32 million packets per second, while extending the chain to seven NFs only incurs a 10%
+                    throughput drop. Using indirect NF communication via the management layer sees decreasing performance as the
+                    manager’s TX thread becomes a bottleneck.</p>
+            </section>
+        </div>
+        <div class="row">
+            <section class="12u$ 12u$(medium)">
+                <img src="{{base}}/images/onvm-web-traffic.png" width="230px">
+                <p>We have evaluated the performance of OpenNetVM under realistic traffic loads on a machine with eight 10 Gbps NIC
+                    ports. If web traffic is directed to a single NF, we observe a maximum throughput of 48Gbps, at which point the
+                    NF itself (running a simple forwarding example) becomes the bottleneck. Starting a second replica of the NF
+                    allows OpenNetVM to automatically load balance traffic across the two NFs, while preserving flow affinity. This
+                    improves performance up to 68 Gbps, which we believe is the hardware limit on our server. Even if the traffic is
+                    sent through a chain of 5 NFs, we can still process 40 Gbps.</p>
+            </section>
+        </div>
+    </div>
+</section>
