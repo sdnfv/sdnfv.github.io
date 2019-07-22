@@ -16,6 +16,7 @@ Our NFV platform **openNetVM** is now available for testing. [Read more about op
 
 
 ## Publications
+  * **NetML: An NFV Platform with Efficient Support for Machine Learning Applications**. *Aditya Dhakal and K. K. Ramakrishnan*. IEEE Conference on Network Softwarization, June 2019.
   * **[REINFORCE: Achieving Efficient Failure Resiliency for Network Function Virtualization based Services](http://faculty.cs.gwu.edu/timwood/papers/18-CoNext-reinforce.pdf)**. *Sameer G. Kulkarni, Guyue Liu, K. K. Ramakrishnan, Mayutan Arumaithurai, Timothy Wood, and Xiaoming Fu*. ACM CoNEXT, December 2018.
   * **[Microboxes: High Performance NFV with Customizable, Asynchronous TCP Stacks and Dynamic Subscriptions](http://faculty.cs.gwu.edu/timwood/papers/18-SIGCOMM-uboxes.pdf)**. *Guyue Liu, Yuxin Ren, Mykola Yurchenko, K.K. Ramakrishnan, and Timothy Wood.* ACM SIGCOMM, August 2018. 
   * **[NFVnice: Dynamic Backpressure and Scheduling for NFV Service Chains](http://faculty.cs.gwu.edu/timwood/papers/17-SIGCOMM-NFVNice.pdf)**. *Sameer G Kulkarni, Wei Zhang, Jinho Hwang, Shriram Rajagopalan, K.K. Ramakrishnan, Timothy Wood, Mayutan Arumaithurai, and Xiaoming Fu.* ACM SIGCOMM, August 2017. 
