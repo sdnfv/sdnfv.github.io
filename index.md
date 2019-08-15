@@ -16,6 +16,7 @@ Our NFV platform **openNetVM** is now available for testing. [Read more about op
 
 
 ## Publications
+  * **[Advancing Network Function Virtualization with Programmable NICs](http://faculty.cs.gwu.edu/timwood/papers/19-lanman-smartnics.pdf)**. *Zhen Ni, Guyue Liu, Dennis Afanasev, Timothy Wood, and Jinho Hwang.* IEEE International Symposium on Local and Metropolitan Area Networks (LANMAN 19), July 2019.
   * **[NetML: An NFV Platform with Efficient Support for Machine Learning Applications](/papers/19-netml.pdf)**. *Aditya Dhakal and K. K. Ramakrishnan*. IEEE Conference on Network Softwarization, June 2019.
   * **[REINFORCE: Achieving Efficient Failure Resiliency for Network Function Virtualization based Services](http://faculty.cs.gwu.edu/timwood/papers/18-CoNext-reinforce.pdf)**. *Sameer G. Kulkarni, Guyue Liu, K. K. Ramakrishnan, Mayutan Arumaithurai, Timothy Wood, and Xiaoming Fu*. ACM CoNEXT, December 2018.
   * **[Microboxes: High Performance NFV with Customizable, Asynchronous TCP Stacks and Dynamic Subscriptions](http://faculty.cs.gwu.edu/timwood/papers/18-SIGCOMM-uboxes.pdf)**. *Guyue Liu, Yuxin Ren, Mykola Yurchenko, K.K. Ramakrishnan, and Timothy Wood.* ACM SIGCOMM, August 2018. 
