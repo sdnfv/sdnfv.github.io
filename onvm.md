@@ -14,7 +14,7 @@ openNetVM is an open source version of the NetVM platform described in our [NSDI
 ## Current Status
 **OpenNetVM's source code and documentation are [available on github](https://github.com/sdnfv/openNetVM).**
 
-**The fastest way to get started with OpenNetVM** is using NSF CloudLab. You can find a premade [profile here](https://www.cloudlab.us/p/GWCloudLab/onvm-18.03). 
+**The fastest way to get started with OpenNetVM** is using NSF CloudLab. You can find a premade [profile here](https://www.cloudlab.us/p/GWCloudLab/onvm). 
 
 <img src="/res/netvm-arch.png" width="700px" style="padding-bottom:10px; margin-left: auto; margin-right: auto; display: block;">
 
@@ -41,4 +41,3 @@ The OpenNetVM Speed Tester NF can be used to measure the throughput of the syste
 <img src="/res/onvm-web-traffic.png"  height="270px" style="float:right; padding-left:10px">
 
 We have evaluated the performance of OpenNetVM under realistic traffic loads on a machine with eight 10 Gbps NIC ports. If web traffic is directed to a single NF, we observe a maximum throughput of 48Gbps, at which point the NF itself (running a simple forwarding example) becomes the bottleneck. Starting a second replica of the NF allows OpenNetVM to automatically load balance traffic across the two NFs, while preserving flow affinity. This improves performance up to 68 Gbps, which we believe is the hardware limit on our server.  Even if the traffic is sent through a chain of 5 NFs, we can still process 40 Gbps.
-
