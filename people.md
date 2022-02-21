@@ -11,9 +11,11 @@ SDNFV is a joint effort between the University of California Riverside and Georg
   * [Tim Wood](http://faculty.cs.gwu.edu/~timwood/wiki/doku.php), GW
 
 ### Students
+  * [Dennis Afanasev](https://dennisafa.github.io/), undergraduate student at GW
   * [Pat Cody](http://patcody.io/), undergraduate student at GW
   * [Aaron Coplan](https://aaroncoplan.com/#/), undergraduate student at GW
   * [Aditya Dhakal](https://www.cs.ucr.edu/~adhak001/), Ph.D. student at UCR
+  * Kevin Deems, undergraduate student at GW
   * Riley Kennedy, undergraduate student at GW
   * [Guyue Liu](http://grace-liu.github.io/), Ph.D. student at GW
   * Phil Lopreiato, undergraduate student at GW, now at Facebook
@@ -22,12 +24,11 @@ SDNFV is a joint effort between the University of California Riverside and Georg
   * Ali Mohammadkhan, Ph.D. student at UCR
   * [Sourav Panda](https://www.cs.ucr.edu/~spand009/), Ph.D. student at UCR
   * Chris Quion, undergraduate student at GW
+  * Yuxin Ren, Ph.D. student at GW
   * [Neel Shah](http://www.shah7.com/), undergraduate student at GW, now at VMware
   * Warren Smith, undergraduate student at GW
   * Mykola Yurchenko, undergraduate student at GW
   * Wei Zhang, Ph.D. student at GW
-  * [Dennis Afanasev](https://dennisafa.github.io/), undergraduate student at GW
-  * Kevin Deems, undergraduate student at GW
 
 ### Visiting Students
   * Zoe Chen, high school student from Holton-Arms, Maryland
